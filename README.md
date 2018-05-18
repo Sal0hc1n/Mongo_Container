@@ -34,3 +34,5 @@ the other folders and files are necessary for:
 **data** -> mongodb folder (shared with Mongo's Container)
 
 **docker-compose-yml** -> is the orchestrator that starts building the containers and link them up.
+
+**WARNING (Windows)**: The default Docker setup on Windows uses a VirtualBox VM to host the Docker daemon, so you cannot use volumes to save the MongoDB data.
